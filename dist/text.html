@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="assets/css/style.min.css" />
+        
+        <!-- Useful meta tags -->
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta name="google" content="notranslate" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="description" content="" />
+        
+        <title id="Text page">Text page</title>
+    </head>
+    <body id="index">
+        <div class="page" id="page">
+            <!-- Header-->
+            <header class="header" id="header">
+                <section class="header__left">
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a class="nav__link" href="news.html">Новини</a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link has-subnav" href="#">Для батьків</a>
+                                <ul class="subnav">
+                                    <li>
+                                        <a href="#" class="subnav__link">Наши модулі</a>
+                                    </li>
+                                    <li><a href="#" class="subnav__link">Ціни</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+            
+                    <button class="burger active" type="button" id="sidebarToggle">
+                        <span>Відкрити навігацію</span>
+                    </button>
+                </section>
+                <section class="header__center">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a class="nav__link" href="index.html">Cyber&Clever</a>
+                        </li>
+                    </ul>
+                </section>
+                <h3></h3>
+                <section class="header__right">
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a class="nav__link" href="profile.html">Профіль</a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link" href="#">Вихід</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <form class="search" action="search.html" method="get">
+                        <input class="search__input" type="text" placeholder="Пошук" />
+                    </form>
+                </section>
+            </header>
+
+            <!-- Sidebar-->
+            <aside class="sidebar" id="sidebar">
+                <section class="sidebar__header">
+                    <img src="assets/images/html+.jpg" alt="html+" />
+                </section>
+                <section class="sidebar__content">
+                    <section class="profile">
+                        <img
+                            class="profile__logo"
+                            src="assets/images/logo_sidebar.svg"
+                            alt="logo"
+                        />
+                        <section class="profile__heder">
+                            <section class="profile__title">Cyber&Clever</section>
+                            <section class="profile__prof">Modern UltraSchool</section>
+                        </section>
+            
+                        <ul class="social">
+                            <li class="social__item">
+                                <a href="#" class="social__link">
+                                    <img
+                                        src="assets/images/instagram.svg"
+                                        alt="instagram"
+                                    />
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="#" class="social__link">
+                                    <img src="assets/images/facebook.svg" alt="facebook" />
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="#" class="social__link">
+                                    <img src="assets/images/tiktok.svg" alt="tiktok" />
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="#" class="social__link">
+                                    <img src="assets/images/twitter.svg" alt="twitter" />
+                                </a>
+                            </li>
+                        </ul>
+            
+                        <section class="profile__text">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Dolorum impedit incidunt deserunt, eum quae blanditiis
+                                expedita? Perspiciatis, expedita! Quia porro dicta hic
+                                magni, vitae eligendi ullam non debitis libero consequatur!
+                            </p>
+                        </section>
+                        <!--/.profile-->
+                        <form
+                            class="search search--mobil"
+                            action="search.html"
+                            method="get"
+                        >
+                            <input class="search__input" type="text" placeholder="Пошук" />
+                        </form>
+                        <nav class="nav nav--mobil">
+                            <ul class="nav__list">
+                                <li class="nav__item">
+                                    <a class="nav__link" href="news.html">Новини</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link has-subnav" href="#">Для батьків</a>
+                                    <ul class="subnav">
+                                        <li>
+                                            <a href="#" class="subnav__link">Наши модулі</a>
+                                        </li>
+                                        <li><a href="#" class="subnav__link">Ціни</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+            
+                            <ul class="nav__list">
+                                <li class="nav__item">
+                                    <a class="nav__link" href="profile.html">Профіль</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">Вихід</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </section>
+                    <!--/.sidebar__content-->
+                    <section class="sidebar__footer">
+                        <a class="btn btn--yellow" href="works.html">
+                            <span class="span"></span>
+                            <span class="span"></span>
+                            <span class="span"></span>
+                            <span class="span"></span>Наші модулі</a
+                        >
+            
+                        <button
+                            class="btn btn--blue"
+                            type="button"
+                            data-modal="contact-modal"
+                        >
+                            <span class="span"></span>
+                            <span class="span"></span>
+                            <span class="span"></span>
+                            <span class="span"></span>
+                            Написати нам
+                        </button>
+                    </section>
+                </section>
+            </aside>
+
+            <!-- Main-->
+            <main class="main" id="main">
+                <article class="container" id="container">
+<!-- Post -->
+<article class="post">
+    <!-- Post active -->
+    <section class="post__active">
+        <a href="news.html">Повернутися назад</a>
+        <a href="#"
+            >Поділитися
+            <img src="assets/images/share.svg" alt="" />
+        </a>
+    </section>
+    <!-- /Post active -->
+
+    <!-- Post content -->
+    <section class="post__content">
+        <!-- Post text -->
+        <section class="post__description">
+            <h2>Title h2</h2>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Maiores officia delectus necessitatibus voluptates aliquid
+                eveniet blanditiis, ex perspiciatis debitis accusantium! In ea
+                illum dolores mollitia modi accusamus possimus nam cumque?
+            </p>
+
+            <h3>Title h3</h3>
+            <p>
+                Lorem <a href="#"> dolor sit,</a> amet consectetur adipisicing
+                elit. Maiores officia delectus necessitatibus voluptates aliquid
+                eveniet blanditiis, ex perspiciatis debitis accusantium! In ea
+                illum dolores mollitia modi accusamus possimus nam cumque?
+            </p>
+            <p>
+                <img src="assets/images/html+.jpg" alt="photo" />
+            </p>
+            <h4>Title h4</h4>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Maiores officia delectus necessitatibus voluptates aliquid
+                eveniet blanditiis, ex perspiciatis debitis accusantium! In ea
+                illum dolores mollitia modi accusamus possimus nam cumque?
+            </p>
+            <ul>
+                <li>item</li>
+                <li>item</li>
+                <li>item</li>
+            </ul>
+
+            <ol>
+                <li>item</li>
+                <li>item</li>
+                <li>item</li>
+            </ol>
+
+            <p>
+                <span class="fr-video">
+                    <iframe
+                        src="https://www.youtube.com/embed/p4zbV1MBJNs?list=PLoq3Accf02PWYMRAU8RDRjSfJK52vUTo2"
+                        title="Верстка сайта HTML, GULP, SASS | Персональный блог #5"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                    ></iframe>
+                </span>
+            </p>
+        </section>
+        <!-- /Post text -->
+    </section>
+</article>
+
+</article>
+            </main>
+
+            <!-- Footer-->
+            <footer id="footer">
+                <article class="footer">
+                    <h3>Cyber&Clever Modern UltraSchool</h3>
+                    <section class="footer__content">
+                        <section class="footer__logo">
+                            <a href="index.html"
+                                ><img src="assets/images/logo_sidebar.svg" alt="Logo"
+                            /></a>
+                        </section>
+            
+                        <section class="sidebar__footer">
+                            <a class="btn btn--yellow" href="works.html"
+                                ><span class="span"></span>
+                                <span class="span"></span>
+                                <span class="span"></span>
+                                <span class="span"></span>Наші модулі</a
+                            >
+                            <button
+                                class="btn btn--blue"
+                                type="button"
+                                data-modal="contact-modal"
+                            >
+                                <span class="span"></span>
+                                <span class="span"></span>
+                                <span class="span"></span>
+                                <span class="span"></span>
+                                Написати нам
+                            </button>
+                        </section>
+            
+                        <article class="footer__social">
+                            <h3>Network</h3>
+                            <ul class="social">
+                                <li class="social__item">
+                                    <a href="#" class="social__link">
+                                        <img
+                                            src="assets/images/instagram.svg"
+                                            alt="instagram"
+                                        />
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="#" class="social__link">
+                                        <img
+                                            src="assets/images/facebook.svg"
+                                            alt="facebook"
+                                        />
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="#" class="social__link">
+                                        <img src="assets/images/tiktok.svg" alt="tiktok" />
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="#" class="social__link">
+                                        <img
+                                            src="assets/images/twitter.svg"
+                                            alt="twitter"
+                                        />
+                                    </a>
+                                </li>
+                            </ul>
+                        </article>
+                        <article class="footer__payment">
+                            <h3>Cesh</h3>
+                            <img src="#" alt="visa" />
+                            <img src="#" alt="mastercar" />
+                        </article>
+                    </section>
+                </article>
+            </footer>
+        </div>
+        <section class="modal" id="story-modal">
+    <section class="modal__content modal__content--story">
+        <video
+            class="modal__video"
+            src=""
+            poster="https://fakeimg.pl/420x580"
+        ></video>
+    </section>
+</section>
+ <section class="modal" id="contact-modal">
+    <section class="modal__content modal__content--contact">
+        <h1 class="page__title page__title--center">Напиши нам</h1>
+
+        <article class="singup">
+            <button class="modal__close" type="button">
+                <img src="assets/images/close.svg" alt="Close" />
+            </button>
+
+            <form action="/" class="form form--auth" method="post">
+                <section class="form__group form__group--md">
+                    <input
+                        class="form__control"
+                        type="email"
+                        name=""
+                        required=""
+                    /><label>Ваше ім'я</label>
+                    <span class="form__line"></span>
+                </section>
+                <section class="form__group form__group--md">
+                    <input
+                        class="form__control"
+                        type="email"
+                        name=""
+                        required=""
+                    /><label>Ваш E-mail</label>
+                    <span class="form__line"></span>
+                </section>
+
+                <section class="form__group form__group--md">
+                    <textarea
+                        class="form__control form__control--textarea"
+                        name=""
+                        required=""
+                        data-autoresize
+                    ></textarea
+                    ><label>Текст повідомлення</label>
+                </section>
+
+                <section class="form__footer">
+                    <section class="form__group form__group--md">
+                        <button
+                            class="btn btn--blue btn--rounded btn--sm"
+                            type="submit"
+                        >
+                            <span class="span"></span>
+                            <span class="span"></span>
+                            <span class="span"></span>
+                            <span class="span"></span>
+                            Надіслати
+                        </button>
+                    </section>
+                </section>
+            </form>
+
+            <ul class="modal__footer">
+                <li>E-mail: <a href="mailto:E-mail">E-mail</a></li>
+                <li>
+                    Phone: <a href="tel:+3800000000">+380 (00) 00 00 000</a>
+                </li>
+            </ul>
+        </article>
+    </section>
+    <!-- modal__content -->
+</section>
+<!-- modal -->
+ <section class="modal">
+    <section class="modal__content">
+        <h1 class="page__title page__title--center">Поділитися</h1>
+
+        <article class="singup">
+            <button class="modal__close" type="button">
+                <img src="assets/images/close.svg" alt="Close" />
+            </button>
+
+            <ul class="social">
+                <li class="social__item">
+                    <a href="#" class="social__link">
+                        <img
+                            src="assets/images/instagram.svg"
+                            alt="instagram"
+                        />
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="#" class="social__link">
+                        <img src="assets/images/facebook.svg" alt="facebook" />
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="#" class="social__link">
+                        <img src="assets/images/tiktok.svg" alt="tiktok" />
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="#" class="social__link">
+                        <img src="assets/images/twitter.svg" alt="twitter" />
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="#" class="social__link">
+                        <img src="assets/images/copy.svg" alt="twitter" />
+                    </a>
+                </li>
+            </ul>
+        </article>
+    </section>
+    <!-- modal__content -->
+</section>
+<!-- modal -->
+
+
+        <script src="assets/js/app.js"></script>
+    </body>
+</html>
